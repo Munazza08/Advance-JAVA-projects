@@ -1,0 +1,50 @@
+*{
+	margin: 0; 
+	padding:0; 
+	box-sizing: border-box;
+}
+
+#body{
+	background:url(office.gif);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	}
+	
+nav{
+	display:flex;
+	justify-content:center;
+	gap:120px;
+	font-size:22px;
+}
+
+nav a{
+	color: #C96868;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+nav a:hover{
+	color: white;
+	background-color: #C96868;
+	border-radius:5px;
+	padding: 5px 10px;
+}
+
+.index-div{
+	text-align: center;
+	margin-top: 200px;
+	color: white;
+}
+
+.index-div h1{
+	background-color: #C96868;
+	color: white;
+	padding: 30px;
+}
+
+.form-box{
+	margin: auto;
+	font-size: 20px;
+	margin-top: 20px;
+	background-color: #C96868;
+}
